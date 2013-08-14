@@ -4,14 +4,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = "django-form-utils",
+    name = "django-flexible-form",
     version = "1.0.0",
-    url = 'http://ondrejsika.com/docs/django-form-utils',
-    download_url = 'https://github.com/sikaondrej/django-form-utils',
+    url = 'http://ondrejsika.com/docs/django-flexible-form',
+    download_url = 'https://github.com/sikaondrej/django-flexible-form',
     license = 'GNU LGPL v.3',
     description = "",
     author = 'Ondrej Sika',
     author_email = 'ondrej@ondrejsika.com',
-    py_modules = ["form_utils"],
+    py_modules = ["flexible_form"],
     #packages = find_packages(),
 )

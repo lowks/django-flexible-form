@@ -1,4 +1,4 @@
-class FormUtils:
+class FlexibleForm:
     help_texts = {}
     def replace_help_texts(self, help_texts=None):
         if not help_texts:
